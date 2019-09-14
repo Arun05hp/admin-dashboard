@@ -1,0 +1,7 @@
+var collapseBtn = document.getElementById('collapseBtn');
+var main = document.getElementById('main');
+var sidenav = document.getElementById('sidenav');
+collapseBtn.addEventListener('click', function changeClass(){
+ 	sidenav.classList.add("deactive");
+ 	main.classList.remove("active");
+ });
